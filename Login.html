@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login</title>
+</head>
+<body>
+    <img class="back" src="bg1.jpg" data-aos="flip-left" data-aos-duration="3000">
+    <img class="logo" src="Picsart_22-12-06_15-07-12-208.png">
+<nav>
+
+    <p class="Login"></p>
+    
+<div>
+   <p class="Here"></p>
+   <p class="Lets"></p>
+   <p class="Email"></p>
+   <input class="mail" type="text">
+   <p class="Pass"></p>
+   <input class="pass" type="password">
+   
+   <a href="index.html">
+   <input class="log" type="submit" value="Login" data-aos="flip-left" data-aos-duration="3000">
+   </a>
+
+   <p class="signup">Don't have an account?</p>
+   <p class="sign"><a href="signup.html" style="color:#FFFFFF;">signup</a></p>
+</div>
+</nav>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+
+<script>
+     gsap.registerPlugin(TextPlugin);
+     gsap.to('.Login',{duration:3, text:'Login Page'})
+     gsap.to('.Here',{duration:3, text:'Here you can login'})
+     gsap.to('.Lets',{duration:3, text:'Lets Join us :)'})
+     gsap.to('.Email',{duration:3, text:'Email'})
+     gsap.to('.Pass',{duration:3, text:'Password'})
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #14386C;
+}
+nav{
+    background: rgba(8, 56, 85, 0.6);
+    height: 100px;
+}
+
+.Login{
+    position: absolute;
+font-family: 'Jaldi';
+font-weight: 400;
+font-size: 300%;
+line-height: 84px;
+margin-left: 50%;
+color: #FFFFFF;
+}
+
+.Here{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 300%;
+    font-family: 'Jaldi';
+    margin-left: 55%;
+    margin-top: 10%;
+}
+.Lets{
+    position: absolute;
+    color: rgba(209, 209, 247, 0.8);
+    font-family: 'Jaldi';
+    margin-left: 55%;
+    margin-top: 14%;
+    
+}
+.Email{
+    position: absolute;
+    color: rgba(209, 209, 247, 0.8);
+    font-family: 'Jaldi';
+    margin-left: 55%;
+    margin-top: 17%;
+    font-size: 250%;
+}
+
+.mail{
+    position: absolute;
+    background: #083855;
+    border: #083855; 
+    margin-left: 55%;
+    margin-top: 20%;
+    font-size: 250%;
+    color:#ffff;
+}
+
+.Pass{
+    position: absolute;
+    color: rgba(209, 209, 247, 0.8);
+    font-family: 'Jaldi';
+    margin-left: 55%;
+    margin-top: 25%;
+    font-size: 250%;
+}
+
+.pass{
+    position: absolute;
+    background: #083855;
+    border: #083855; 
+    margin-left: 55%;
+    margin-top: 28%;
+    font-size: 250%;
+    color:#ffff;
+}
+
+.log{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 35%;
+    width: 31%;
+    height: 8%;
+    background: #2A2868;
+    border-radius: 50px;
+    color: #ffff;
+}
+
+.signup{
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 40%;
+    color: rgba(209, 209, 247, 0.5);
+}
+
+.sign{
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 40%;
+}
+
+.back{
+    position: absolute;
+width: 45%;
+height: 100%;
+filter: blur(7.5px);
+}
+
+.logo{
+    position: absolute;
+    margin-left: 93%;
+    width: 10;
+    height: 12%;
+    transform: rotate(-90deg);
+}

@@ -1,0 +1,286 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #14386C;
+}
+nav{
+    background: rgba(8, 56, 85, 0.6);
+    height: 80px;
+}
+
+.sign{
+    position: absolute;
+font-family: 'Jaldi';
+font-weight: 400;
+font-size: 300%;
+
+margin-left: 2%;
+color: #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 93%;
+    width: 10;
+    height: 12%;
+    transform: rotate(-90deg);
+}
+
+.Lets{
+    position: absolute;
+    font-family: 'Jaldi';
+    font-weight: 400;
+    font-size: 200%;
+    line-height: 84px;
+    margin-left: 45%;
+    margin-top: 5%;
+    color: #FFFFFF;
+    }
+
+
+.name{
+    position: absolute;
+    color: white;
+    font-family: 'Jaldi';
+    margin-left: 5%;
+    margin-top: 11%;
+    font-size: 200%;
+}
+
+.nama{
+    position: absolute;
+    background: #083855;
+    border: #083855; 
+    margin-left: 5%;
+    margin-top: 14%;
+    font-size: 200%;
+    color:#ffff;
+}
+
+.email{
+    position: absolute;
+    color: white;
+    font-family: 'Jaldi';
+    margin-left: 5%;
+    margin-top: 17%;
+    font-size: 200%;
+}
+
+.mail{
+    position: absolute;
+    background: #083855;
+    border: #083855; 
+    margin-left: 5%;
+    margin-top: 20%;
+    font-size: 200%;
+    color:#ffff;
+}
+
+.p{
+    position: absolute;
+    color: white;
+    font-family: 'Jaldi';
+    margin-left: 5%;
+    margin-top: 23%;
+    font-size: 200%;
+}
+
+.pass{
+    position: absolute;
+    background: #083855;
+    border: #083855; 
+    margin-left: 5%;
+    margin-top: 26%;
+    font-size: 200%;
+    color:#ffff;
+}
+
+.phone{
+    position: absolute;
+    color: white;
+    font-family: 'Jaldi';
+    margin-left: 5%;
+    margin-top: 29%;
+    font-size: 200%;
+}
+
+.nomor{
+    position: absolute;
+    background: #083855;
+    border: #083855; 
+    margin-left: 5%;
+    margin-top: 32%;
+    font-size: 200%;
+    color:#ffff;
+}
+
+.log{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 35%;
+    width: 26%;
+    height: 8%;
+    background: #2A2868;
+    border-radius: 50px;
+    color: #ffff;
+}
+
+@media  (max-width: 670px) {
+    .logo{
+        margin-left: 20%;
+        width: 1px;
+height: 1px;
+left: 70px;
+top: 119px;
+transform: rotate(-90deg);
+    }
+    .sign{
+        position: absolute;
+width: 253px;
+height: 80px;
+left: 70px;
+top: 128px;
+
+font-family: 'Jaldi';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 68px;
+
+color: #FFFFFF;
+
+    }
+    
+    .name{
+        position: absolute;
+        width: 108px;
+        height: 51px;
+        left: 18px;
+        top: 242px;
+        
+        font-family: 'Jaldi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 68px;
+        
+        color: #FFFFFF;
+    }
+    
+    .nama{
+        position: absolute;
+        width: 286px;
+        height: 47px;
+        left: 20px;
+        top: 305px;
+        
+        background: #083855;
+    }
+    
+    .email{
+        position: absolute;
+        width: 108px;
+        height: 51px;
+        left: 20px;
+        top: 402px;
+        
+        font-family: 'Jaldi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 68px;
+        
+        color: #FFFFFF;
+    }
+    
+    .mail{
+        position: absolute;
+width: 286px;
+height: 47px;
+left: 20px;
+top: 466px;
+
+background: #083855;
+    }
+    
+    .p{
+        position: absolute;
+width: 213px;
+height: 51px;
+left: 20px;
+top: 526px;
+
+font-family: 'Jaldi';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 68px;
+
+color: #FFFFFF;
+    }
+    
+    .pass{
+        position: absolute;
+width: 286px;
+height: 47px;
+left: 20px;
+top: 602px;
+
+background: #083855;
+    }
+    
+    .phone{
+        position: absolute;
+        width: 250px;
+        height: 51px;
+        left: 26px;
+        top: 662px;
+        
+        font-family: 'Jaldi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 68px;
+        
+        color: #FFFFFF;
+    }
+    
+    .nomor{
+        position: absolute;
+width: 286px;
+height: 47px;
+left: 26px;
+top: 745px;
+
+background: #083855;
+    }
+    
+    .log{
+        position: absolute;
+width: 402px;
+height: 80px;
+left: 12px;
+top: 824px;
+
+background: #2A2868;
+border-radius: 50px;position: absolute;
+width: 304px;
+height: 80px;
+left: 20px;
+top: 824px;
+
+font-family: 'Jaldi';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 84px;
+
+color: #FFFFFF;
+    }
+
+}
